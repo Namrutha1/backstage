@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-cache
+  description: Cache for the example service
+spec:
+  type: cache
+  lifecycle: experimental
+  owner: user:guest
+  system: examples

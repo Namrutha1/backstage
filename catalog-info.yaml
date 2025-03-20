@@ -6,6 +6,11 @@ metadata:
   tags:
     - web
     - backend
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: service
   lifecycle: experimental

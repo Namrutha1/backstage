@@ -2,15 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: example-service
-  description: An example service for learning Backstage
-  tags:
-    - web
-    - backend
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
       icon: dashboard
       type: admin-dashboard
+  description: An example service for learning Backstage
+  tags:
+    - web
+    - backend
 spec:
   type: service
   lifecycle: experimental

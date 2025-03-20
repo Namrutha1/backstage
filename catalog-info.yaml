@@ -3,10 +3,10 @@ kind: Component
 metadata:
   name: example-service
   links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
+    - url: https://www.youtube.com/
+      title: Youtube
       icon: dashboard
-      type: admin-dashboard
+      type: youtubedashboard
   description: An example service for learning Backstage
   tags:
     - web
